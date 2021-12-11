@@ -1,0 +1,34 @@
+{
+    "name": "omatamix/database",
+    "description": "Manage your database with ease.",
+    "homepage": "https://github.com/omatamix/database",
+    "keywords": [],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/omatamix/database/issues",
+        "source": "https://github.com/omatamix/database"
+    },
+    "require": {
+        "php": "^8.0",
+        "omatamix/container": "v6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omatamix\\Database\\": "./src"
+        },
+        "files": [
+            "./bootstrap.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
